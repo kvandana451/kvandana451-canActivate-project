@@ -1,6 +1,11 @@
 # App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. But developed using Angular 16.
+
+About the project:<br>
+Since there’s no backend, manually set roles in localStorage (mimicking backend response).<br>
+Redirect User to the Correct Role-Based Page by determining highest-priority role and then redirect<br>
+Used canActivate guard to control route access
 
 ## Development server
 
